@@ -4,7 +4,7 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://pick6golf.netlify.com',
+  URL: NETLIFY_SITE_URL = 'https://burnham.netlify.com',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
@@ -36,7 +36,7 @@ module.exports = {
     	  {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ["UA-89654528-2"],
+        trackingIds: [""],
       },
     },
     
@@ -119,7 +119,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         enableIdentityWidget: true,
-        htmlTitle: `Pick 6 Golf Content Manager`,
+        htmlTitle: `Burnham Content Manager`,
       },
     },
 

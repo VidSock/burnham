@@ -19,7 +19,7 @@ offerings:
 testimonials:
   - author: aa
     quote: aa
-meta_title: Pick 6 Golf - Pick your best 6 golfers
-meta_description: 'A friendly contest dedicated to picking the best golfers in tournaments. '
+meta_title: Burnham Drugs | Where a smile is the best medicine
+meta_description: 'Burnham Drugs | Where a smile is the best medicine '
 ---
 

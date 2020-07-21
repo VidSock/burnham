@@ -65,7 +65,7 @@ const Footer = class extends React.Component {
 
  
 
-<br />
+{/* <br />
 <h2 style={{textAlign:'center', margin:'0 0 1rem 0',}}>2020 Tournaments</h2>
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', margin:''}}>
 
@@ -105,7 +105,7 @@ const Footer = class extends React.Component {
 </ul>
 
 <br />
-<br />
+<br /> */}
 {/* <div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: '90%'}}><Link to="/disclaimer/">Disclaimer</Link>  |  <Link to="/privacy/">Privacy Policy</Link>  |  <Link to="/terms/">Terms of Service</Link></div> */}
 
 

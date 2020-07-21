@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchBox from '../components/SearchBox'
-import logo from '../img/pick6golf-logo-square.svg'
+import logo from '../img/Burnham-Drugs-Logo@2x.png'
 import Headroom from "react-headroom"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -143,22 +143,72 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 <Headroom style={{ zIndex: '5', }}>
     <header className="header" style={{position:'relative',}}>
     
-  
-    
-    <Link to="/" className="logolink" title="Logo - Back To Home">
-    <img className="logo fadeInDown" src={logo} alt="Twilightscapes Logo" />
+    <Link to="/" className="logolink" title="Logo - Back To Home" style={{textDecoration:'none',}}>
+    <img className="logo" src={logo} alt="Burnham Logo" style={{marginTop:'0'}} />
     </Link>
     
+
     
    
    
 
-   
+    
+
     
 <input className="menu-btn" type="checkbox" id="menu-btn" />
 <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
 
-           
+            <ul id="menu" className="menu">
+            
+            
+              
+              <li className="grad" style={{position:'relative',}}>
+              <Link className="navbar-item" to="/#refill" style={{paddingRight:'',}}>
+              Your RX
+              </Link>
+              </li>
+
+              {/* <li className="grad" style={{position:'relative',}}>
+              <Link className="navbar-item" to="/#savings" style={{paddingRight:'',}}>
+              Rx Savings
+              </Link>
+              </li> */}
+
+              <li className="grad" style={{position:'relative',}}>
+              <Link className="navbar-item" to="/#gift" style={{paddingRight:'',}}>
+              Gift Dept
+              </Link>
+              </li>
+              
+              <li className="grad" style={{position:'relative',}}>
+              <Link className="navbar-item" to="/#services" style={{paddingRight:'',}}>
+              Services
+              </Link>
+              </li>
+              
+              <li className="grad" style={{position:'relative',}}>
+              <Link className="navbar-item" to="/#contact" style={{paddingRight:'',}}>
+              Contact
+              </Link>
+              </li>
+
+              <li className="grad" style={{position:'relative',}}>
+              <Link className="navbar-item" to="/#about" style={{paddingRight:'',}}>
+              About
+              </Link>
+              </li>
+              
+              
+              
+              <li style={{display:'none',}}>
+             
+             <label className="modal-btn grad" htmlFor="semitoggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'8px',}}> <FaSearch className="contact-icon txtshadow" style={{fontSize:'23px', position:'relative', right:'', top:'10px',}}/></label> 
+             
+              </li>
+              
+              
+              
+            </ul>
             
             
       
