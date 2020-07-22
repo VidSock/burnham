@@ -58,7 +58,7 @@ const Install = () => (
 
 
 	
-	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install Our App!</h4>
+	<div style={{textAlign:'center', fontSize:'140%',}}>Install Our App!</div>
 	<br />
 
   <div style={{fontSize:'100%', textAlign:'center',}}>Our website can be installed on your device <br />Just add it to your home screen to install it.<br /><br /> Prescription refills right at your fingertips</div>
