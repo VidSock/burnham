@@ -4,13 +4,13 @@ import Footer from '../components/Footer'
 // import Gallery1 from '../components/Gallery1'
 import Navbar from '../components/Navbar'
 import config from '../../config'
-// import Install from '../components/Install'
+import Install from '../components/Install'
 import PopContact from '../components/PopContact'
 // import 'typeface-lobster-two'
 // import 'typeface-hammersmith-one'
 
 import "../css/index.scss"
-// import Consent from '../components/Consent'
+import Consent from '../components/Consent'
 
 // import splash from '../img/hytron-splash.png'
 
@@ -138,9 +138,9 @@ const TemplateWrapper = ({ children }) => {
   
       <main>{children}</main>
 
-     {/*  <Consent /> */}
+      <Consent />
     
-
+<Install />
 
    
       <Footer />

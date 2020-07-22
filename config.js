@@ -14,6 +14,6 @@ module.exports = {
   userLocation: 'Gulf Coast, USA',
   userDescription: '',
   copyright: 'Copyright © Todd Lambert Enterprises 1999-2020. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
-  themeColor: '#C8n2C10', // Used for setting manifest and progress theme colors.
+  themeColor: '#266b58', // Used for setting manifest and progress theme colors.
   backgroundColor: '#CCCCCC', // Used for setting manifest background color.
 }

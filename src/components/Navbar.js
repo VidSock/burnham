@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchBox from '../components/SearchBox'
-import logo from '../img/Burnham-Drugs-Logo@2x.png'
+import logo from '../img/burnham-logo-site.svg'
 import Headroom from "react-headroom"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -143,8 +143,8 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 <Headroom style={{ zIndex: '5', }}>
     <header className="header" style={{position:'relative',}}>
     
-    <Link to="/" className="logolink" title="Logo - Back To Home" style={{textDecoration:'none',}}>
-    <img className="logo" src={logo} alt="Burnham Logo" style={{marginTop:'0'}} />
+    <Link to="/" className="logolink" title="Logo - Back To Home" style={{textDecoration:'none', top:'-5px'}}>
+    <img className="logo" src={logo} alt="Burnham Logo" style={{maxHeight:'60px', position:'relative', top:' !important'}} />
     </Link>
     
 

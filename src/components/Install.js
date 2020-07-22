@@ -25,7 +25,7 @@ const CustomBox = styled.div`
 }
 	
 @media (hover: hover) {
-#installer{display: none !important;}
+#installer{display: block !important;}
 }
 	
 
@@ -47,7 +47,7 @@ const Install = () => (
     buttonText="Cancel"
 	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'8%', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
     expires={10}
-    cookieName="Pick6Golf.com-install-cookie"
+    cookieName="burnhamdrugs.com-install-cookie"
 >
 
 
@@ -55,10 +55,10 @@ const Install = () => (
 
 
 	
-	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install App</h4>
+	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install Our App!</h4>
 	<br />
 
-  <div style={{fontSize:'100%', textAlign:'center',}}>This website has app functionality, just add it to your home screen to install it.<br /><br /> You never have to go to the website again!</div>
+  <div style={{fontSize:'100%', textAlign:'center',}}>Our website can be installed on your device <br />Just add it to your home screen to install it.<br /><br /> Prescription refills right at your fingertips</div>
   <br />
 	<div style={{fontSize:'80%', textAlign:'center',}}>On your device, locate the browser menu:</div>
 	<br />
