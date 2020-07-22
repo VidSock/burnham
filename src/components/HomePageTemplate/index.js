@@ -136,7 +136,7 @@ const HomePageTemplate = ({
 
 
 <div class="no-app">
-<h1>WELCOME TO BURNHAM DRUGS</h1>
+<h1 style={{color:'#8c2c24'}}>WELCOME TO BURNHAM DRUGS</h1>
 
 <p>Burnham Drugs is a locally owned and operated independent pharmacy. Quality service, competitive pricing and a genuine concern for our customers’ health has been the key to our success for more than 100 years. </p>
 

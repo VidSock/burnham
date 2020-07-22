@@ -47,8 +47,8 @@ const Install = () => (
 	location="none"
 	style={{ color:'inherit', width:'auto', background:'inherit',  alignItems:'inherit',  textAlign:'left', justifyContent:'center', margin:'0 auto', top:'60px', maxWidth:'600px', position:'', border:'0px solid red', }}
     className=""
-    buttonText="Cancel"
-	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'8%', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
+    buttonText="Ok - I got it!"
+	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'8%', position:'absolute', display:'flex', alignContent:'', color:'inherit', border:'0px solid' }}
     expires={10}
     cookieName="burnhamdrugs.com-install-cookie"
 >
@@ -66,18 +66,18 @@ const Install = () => (
 	<div style={{fontSize:'80%', textAlign:'center',}}>On your device, locate the browser menu:</div>
 	<br />
 	
-    <div style={{fontSize:'100%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #777', borderRadius:'8px',}}>
+    <div style={{fontSize:'100%', textAlign:'center', display:'flex', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #777', borderRadius:'8px',}}>
     
-  <div style={{textAlign:'left', display:'flex', alignContent:'center', marginBottom:'1rem',}}>
- <FiShare style={{fontSize:'200%', marginLeft:'0', marginRight:'2%', float:'',}} />
-  1) Press the 'Share' button 
+  <div style={{textAlign:'', display:'flex', alignContent:'', marginBottom:'1rem', padding:'1rem'}}>
+ <FiShare style={{fontSize:'350%', marginLeft:'0rem', marginRight:'1rem', float:'',}} />
+  1) Press<br />the 'Share' button 
 </div>
    
     
- <div style={{textAlign:'left', display:'flex', alignContent:'center',}}>
- <FaRegPlusSquare style={{fontSize:'200%', marginLeft:'0', marginRight:'2%', float:'',}} /> 
+ <div style={{textAlign:'', display:'flex', alignContent:'', marginBottom:'1rem', padding:'1rem'}}>
+ <FaRegPlusSquare style={{fontSize:'350%', marginLeft:'0rem', marginRight:'1rem', float:'',}} /> 
  
-2) Press 'Add to Home Screen'
+2) Press<br /> 'Add to Home Screen'
  </div>
  
  </div>
