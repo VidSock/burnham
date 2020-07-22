@@ -11,7 +11,7 @@ import { GoGear } from 'react-icons/go'
 import { FaRegAddressCard, FaTelegramPlane, FaSearch, FaTimesCircle } from 'react-icons/fa'
 
 // import PopContact from '../components/PopContact'
-// import ScrollAnimation from 'react-animate-on-scroll'
+import ScrollAnimation from 'react-animate-on-scroll'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
@@ -144,7 +144,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
     <header className="header" style={{position:'relative',}}>
     
     <Link to="/" className="logolink" title="Logo - Back To Home" style={{textDecoration:'none', top:'-5px'}}>
-    <img className="logo" src={logo} alt="Burnham Logo" style={{maxHeight:'60px', position:'relative', top:' !important'}} />
+    <img className="logo" src={logo} alt="Burnham Logo" style={{height:'60px', maxHeight:'60px', position:'relative', top:' !important'}} />
     </Link>
     
 
