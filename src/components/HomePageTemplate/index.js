@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import logo from '../../img/pick6golf-final.svg'
+// import logo from '../../img/pick6golf-final.svg'
 // import Install from '../Install'
 import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
@@ -9,8 +9,8 @@ import PropTypes from 'prop-types'
 import Image from '../Image'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../Content'
-import Contact from '../Contact-inc'
-import ScrollAnimation from 'react-animate-on-scroll'
+// import Contact from '../Contact-inc'
+// import ScrollAnimation from 'react-animate-on-scroll'
 // import PopNewsletter from '../PopNewsletter'
 // import ArticleTemplate from '../ArticleTemplate'
 // import { Link } from 'gatsby'
@@ -210,7 +210,7 @@ Burnham Drugs offers free delivery service for your prescriptions, a wide select
   </div>
   
   <div className="outer" style={{ display:'none', position:'relative', zIndex:'1'}}>
-    <Contact className="container contactform" />
+    {/* <Contact className="container contactform" /> */}
   </div>
   
   <br />
