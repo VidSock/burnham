@@ -119,6 +119,12 @@ const HomePageTemplate = ({
 
 
 <CustomBox>
+
+
+<iframe style={{margin:'100px 0 0 '}} src="https://www.simongjewelry.com/products/showcase?types[]=ENG&display=12" frameborder="0" scrolling="no" width="100%" height="1000px" allowfullscreen></iframe>
+
+
+
 <div className="intro">
 <div className="outer">
   
@@ -147,6 +153,9 @@ const HomePageTemplate = ({
 
 <div class="no-app">
 <h1 className="homeheader">Welcome to Burnham Drugs</h1>
+
+
+
 
 <p>Burnham Drugs is a locally owned and operated independent pharmacy. Quality service, competitive pricing and a genuine concern for our customers’ health has been the key to our success for more than 100 years. </p>
 
