@@ -144,7 +144,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
     <header className="header" style={{position:'relative',}}>
     
     <Link to="/" className="logolink" title="Logo - Back To Home" style={{textDecoration:'none', top:'-5px'}}>
-    <img className="logo" src={logo} alt="Burnham Logo" style={{height:'60px', maxHeight:'60px', position:'relative', top:' !important'}} />
+    <img className="logo" src={logo} alt="Burnham Logo" style={{height:'60px',}} />
     </Link>
     
 
