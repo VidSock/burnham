@@ -137,9 +137,7 @@ const HomePageTemplate = ({
 <h2 style={{textAlign:'center', width:'100%', display:'block'}}>Burnham Drugs Escatawpa: (228) 475-3909</h2>
 
   <div style={{display:'flex', padding:'1rem', margin:'1rem', justifyContent:'space-around'}}>
-			<a className="imgbox shadow" href="https://www.refillrx.com/signup/locatepharmacy.php"  role="button" rel="noopener" style={{border:'1px solid #000', borderRadius:'8px', overflow:'hidden', position:'relative', padding:'1rem', margin:'1rem', background:'#266B58', color:'#fff'}}>
-							<span className="fl-button-text">Register - Burnham Drugs Escatawpa</span>
-					</a>
+			
           <a className="imgbox shadow" href="https://www.refillrx.com/login.php" target="_blank" role="button" rel="noopener" style={{border:'1px solid #000', borderRadius:'8px', overflow:'hidden', position:'relative', padding:'1rem', margin:'1rem auto', background:'#266B58', color:'#fff'}}>
 							<span className="fl-button-text">Log in - Burnham Drugs Escatawpa</span>
 					</a>
