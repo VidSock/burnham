@@ -138,7 +138,7 @@ const HomePageTemplate = ({
 
   <div style={{display:'flex', padding:'1rem', margin:'1rem', justifyContent:'space-around'}}>
 			
-          <a className="imgbox shadow" href="https://www.refillrx.com/login.php" target="_blank" role="button" rel="noopener" style={{border:'1px solid #000', borderRadius:'8px', overflow:'hidden', position:'relative', padding:'1rem', margin:'1rem auto', background:'#266B58', color:'#fff'}}>
+          <a className="imgbox shadow" href="https://www.refillrx.com/login.php"  role="button" rel="noopener" style={{border:'1px solid #000', borderRadius:'8px', overflow:'hidden', position:'relative', padding:'1rem', margin:'1rem auto', background:'#266B58', color:'#fff'}}>
 							<span className="fl-button-text">Log in - Burnham Drugs Escatawpa</span>
 					</a>
   </div>
