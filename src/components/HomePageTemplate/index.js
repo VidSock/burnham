@@ -22,6 +22,16 @@ import styled from 'styled-components'
 const CustomBox = styled.div`
 *, *:before, *:after { box-sizing: border-box; }
 
+
+
+
+
+
+
+
+
+
+
 // .intro:before{
 // 	content: "Todd Leads A Dual-Life";
 // position:absolute;
@@ -113,22 +123,24 @@ const HomePageTemplate = ({
 <div className="outer">
   
 
-        
+
         
 <div className="container">
 <div className="content" style={{padding:'1rem 1rem',}}>
-<Image className="spotimg" alt="Ad2 Inc Marketing and PR" filename="Burnham-Drugs-Homepage.jpg" /><br />
+<div className="no-app"><Image className="spotimg no-app" alt="Ad2 Inc Marketing and PR" filename="Burnham-Drugs-Homepage.jpg" /></div>
+<div className="has-app"><Image className="spotimg has-app" alt="Ad2 Inc Marketing and PR" filename="Burnham-Drugs-Hero.jpg" /></div>
+<br />
 
 
 
 <div className="has-app" style={{}}>
 <h2 style={{textAlign:'center', width:'100%', display:'block'}}>Burnham Drugs Escatawpa: (228) 475-3909</h2>
 
-  <div style={{display:'flex', padding:'1rem', margin:'1rem auto',}}>
-			<a className="imgbox shadow" href="https://www.refillrx.com/signup/locatepharmacy.php"  role="button" rel="noopener" style={{border:'1px solid #000', borderRadius:'8px', overflow:'hidden', position:'relative', padding:'1rem', margin:'1rem auto',}}>
+  <div style={{display:'flex', padding:'1rem', margin:'1rem', justifyContent:'space-around'}}>
+			<a className="imgbox shadow" href="https://www.refillrx.com/signup/locatepharmacy.php"  role="button" rel="noopener" style={{border:'1px solid #000', borderRadius:'8px', overflow:'hidden', position:'relative', padding:'1rem', margin:'1rem', background:'#266B58', color:'#fff'}}>
 							<span className="fl-button-text">Register - Burnham Drugs Escatawpa</span>
 					</a>
-          <a className="imgbox shadow" href="https://www.refillrx.com/login.php" target="_blank" role="button" rel="noopener" style={{border:'1px solid #000', borderRadius:'8px', overflow:'hidden', position:'relative', padding:'1rem', margin:'1rem auto',}}>
+          <a className="imgbox shadow" href="https://www.refillrx.com/login.php" target="_blank" role="button" rel="noopener" style={{border:'1px solid #000', borderRadius:'8px', overflow:'hidden', position:'relative', padding:'1rem', margin:'1rem auto', background:'#266B58', color:'#fff'}}>
 							<span className="fl-button-text">Log in - Burnham Drugs Escatawpa</span>
 					</a>
   </div>
@@ -136,7 +148,7 @@ const HomePageTemplate = ({
 
 
 <div class="no-app">
-<h1 style={{color:'#8c2c24'}}>WELCOME TO BURNHAM DRUGS</h1>
+<h1 className="homeheader">Welcome to Burnham Drugs</h1>
 
 <p>Burnham Drugs is a locally owned and operated independent pharmacy. Quality service, competitive pricing and a genuine concern for our customers’ health has been the key to our success for more than 100 years. </p>
 

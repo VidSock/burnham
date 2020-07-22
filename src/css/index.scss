@@ -913,7 +913,7 @@ div.column{ padding:1rem 0rem;}
 
 .header .menu-btn:checked ~ .menu {
   max-height: 60vh;
-  background-color: #666;
+  background-color: #266B58;
   border-radius:20px;
   margin-top:10px;
 }
@@ -1023,7 +1023,7 @@ input:matches([type="checkbox"]){color:#ff0000 !important;}
 }
 
 
-.headroom--pinned .header .logo{top:-20px !important;}
+.headroom--pinned .header .logo{top:0px !important;}
 .header .logolink{ height:60px;}
 
 .header .menu{height:100vh !important;}
@@ -1502,9 +1502,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db754c', end
 
 
 
-
-.has-app{display:none !important;}
 .no-app{display:block !important;}
+.has-app{display:none !important;}
+
 
 @media (display-mode: standalone) {
   /* All installed PWAs */
@@ -1625,3 +1625,5 @@ padding:0 !important;
 
 
 
+
+body.light .homeheader{color:#8c2c24 !important; border:0px solid red !important;}
