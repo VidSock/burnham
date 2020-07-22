@@ -25,7 +25,7 @@ const CustomBox = styled.div`
 }
 	
 @media (hover: hover) {
-#installer{display: block !important;}
+#installer{display: none !important;}
 }
 	
 
@@ -43,7 +43,7 @@ const Install = () => (
 
 
 <CookieConsent
-	debug={true}
+	debug={false}
 	location="none"
 	style={{ color:'inherit', width:'auto', background:'inherit',  alignItems:'inherit',  textAlign:'left', justifyContent:'center', margin:'0 auto', top:'60px', maxWidth:'600px', position:'', border:'0px solid red', }}
     className=""
