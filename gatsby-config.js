@@ -39,6 +39,16 @@ module.exports = {
         trackingIds: [""],
       },
     },
+
+
+      {
+        resolve: `gatsby-transformer-remark`,
+        options: {
+          plugins: [`gatsby-remark-responsive-iframe`],
+        },
+      },
+
+  
     
     {
     resolve: "gatsby-plugin-netlify-cache",
@@ -92,6 +102,8 @@ module.exports = {
         name: 'images',
       },
     },
+    
+
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -123,6 +135,8 @@ module.exports = {
       },
     },
 
+
+    
 
     {
       resolve: `gatsby-plugin-manifest`,

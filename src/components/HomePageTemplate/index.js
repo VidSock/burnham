@@ -121,7 +121,7 @@ const HomePageTemplate = ({
 <CustomBox>
 
 
-<iframe style={{margin:'100px 0 0 '}} src="https://www.simongjewelry.com/products/showcase?types[]=ENG&display=12" frameborder="0" scrolling="no" width="100%" height="1000px" allowfullscreen></iframe>
+
 
 
 
@@ -151,7 +151,7 @@ const HomePageTemplate = ({
 </div>
 
 
-<div class="no-app">
+<div className="no-app">
 <h1 className="homeheader">Welcome to Burnham Drugs</h1>
 
 
@@ -174,7 +174,7 @@ Burnham Drugs offers free delivery service for your prescriptions, a wide select
 </div>
 
 
-<div class="has-app">
+<div className="has-app">
 	<p>If you are new to our online Prescription Refill services, please choose <strong>Register for Prescription Refills</strong>. For new accounts you will need the following information:</p>
 <ul> 	<p></p>
 <li>Escatawpa Zip Code: <strong>39552</strong></li>
