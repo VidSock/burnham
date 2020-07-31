@@ -61,9 +61,9 @@ const Install = () => (
 	<div style={{textAlign:'center', fontSize:'140%',}}>Install Our App!</div>
 	<br />
 
-  <div style={{fontSize:'100%', textAlign:'center',}}>Our website can be installed on your device <br />Just add it to your home screen to install it.<br /><br /> Prescription refills right at your fingertips</div>
+  <div style={{fontSize:'100%', textAlign:'center',}}>Install Burnham Drugs App! <br />Just add it to your home screen to install it.<br /><br /> Prescription refills right at your fingertips</div>
   <br />
-	<div style={{fontSize:'80%', textAlign:'center',}}>On your device, locate the browser menu:</div>
+	<div style={{fontSize:'80%', textAlign:'center',}}>Install the app in 2 easy steps:</div>
 	<br />
 	
     <div style={{fontSize:'100%', textAlign:'center', display:'flex', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #777', borderRadius:'8px',}}>
